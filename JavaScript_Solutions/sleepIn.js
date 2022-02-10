@@ -9,7 +9,7 @@ sleep in.
 /**
  * @param {Boolean} weekday - checks if it is a weekday
  * @param {Boolean} vacation - checks if on vacation 
- * @returns {Boolean}
+ * @returns {Boolean} - returns true if we sleep in, false otherwise
  */
 function sleepIn (weekday, vacation) {
   if (weekday && !vacation) {
