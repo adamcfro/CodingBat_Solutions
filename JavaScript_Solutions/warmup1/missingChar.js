@@ -1,12 +1,9 @@
-/*
-Given a non-empty string and an int n, return a new string where the char at index n has been removed. The value of n will be a valid index of a char in the original string (i.e. n will be in the range 0..str.length()-1 inclusive).
-*/
-
 /**
+ * Returns a string where the index[n] is removed from the original string.
  * 
- * @param {String} string - a given string
- * @param {Number} n - an index position
- * @returns {String} - returns string parameter with index[n] removed
+ * @param {String} string   A string
+ * @param {Number} n        An index position
+ * @returns {String}        Returns a string with index[n] removed
  */
 function missingChar (string, n) {
   if (n > string.length) {

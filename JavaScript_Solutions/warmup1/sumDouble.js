@@ -1,12 +1,9 @@
-/*
-Given two int values, return their sum. Unless the two values are the same, then return double their sum.
-*/
-
 /**
+ * Returns the sum of two numbers, or double the sum if the two numbers are the same.
  * 
- * @param {Number} num1 - a number value
- * @param {Number} num2 - a number value
- * @returns {Number} - sum of num1 and num2
+ * @param {Number} num1   First number
+ * @param {Number} num2   Second number
+ * @returns {Number}      Returns the sum of num1 and num2, or double their sum if the two numbers are the same.
  */
 function sumDouble (num1, num2) {
   if (num1 === num2) {

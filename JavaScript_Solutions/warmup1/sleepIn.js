@@ -1,15 +1,9 @@
-/*
-The parameter weekday is true if it is a weekday, and the
-parameter vacation is true if we are on vacation. We sleep in 
-if it is not a weekday or we're on vacation. Return true if we 
-sleep in.
-*/
-
-
 /**
- * @param {Boolean} weekday - checks if it is a weekday
- * @param {Boolean} vacation - checks if on vacation 
- * @returns {Boolean} - returns true if we sleep in, false otherwise
+ * This function returns a Boolean letting us know we can sleep in if it is a weekend or if we are on vacation.
+ * 
+ * @param {Boolean} weekday   Checks if it is a weekday
+ * @param {Boolean} vacation  Checks if on vacation 
+ * @returns {Boolean}         Returns true if we sleep in, false otherwise
  */
 function sleepIn (weekday, vacation) {
   if (weekday && !vacation) {
