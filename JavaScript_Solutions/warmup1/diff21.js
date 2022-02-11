@@ -1,11 +1,8 @@
-/*
-Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
-*/
-
 /**
+ * Returns the absolute difference between n and 21, or double the absolute difference if n > 21.
  * 
- * @param {Number} n - a given number 
- * @returns {Number} - absolute value of (n - 21)
+ * @param {Number} n    a number
+ * @returns {Number}    the absolute value of (n - 21), or double that value if n > 21
  */
 function diff21 (n) {
   if (n > 21) {
