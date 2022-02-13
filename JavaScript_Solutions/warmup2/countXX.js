@@ -6,7 +6,7 @@
  */
 function countXX (str) {
   let numberOfX = 0;
-  for (i = 0; i < str.length - 1; i++) {
+  for (let i = 0; i < str.length - 1; i++) {
     if (str.substring(i, i + 2) == 'xx') {
       numberOfX += 1
     }
