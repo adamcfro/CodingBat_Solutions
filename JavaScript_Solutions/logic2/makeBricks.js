@@ -7,5 +7,5 @@
  * @returns {Boolean}           Returns a Boolean
  */
 function makeBricks (smallBricks, bigBricks, goal) {
-  return ((goal % 5) <= smallBricks) && (goal - (bigBricks * 5) <= smallBricks);
+  return ((goal - (bigBricks * 5) <= smallBricks) && ((goal % 5) <= smallBricks));
 }
