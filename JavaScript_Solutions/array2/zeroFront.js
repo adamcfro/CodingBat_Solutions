@@ -5,11 +5,11 @@
  * @returns {Array}           Returns a modified array
  */
 function zeroFront (arr) {
-  let count = 0;
+  let index = 0;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 0) {
-      arr[i] = arr[count];
-      arr[count] = 0;
+      arr[i] = arr[index];
+      arr[index] = 0;
       count += 1;
     }
   }
