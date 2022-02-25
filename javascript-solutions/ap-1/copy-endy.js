@@ -1,9 +1,10 @@
 /**
- * Returns a new array consisting of the first 'count' numbers that are between the range 0-10 inclusive or 90-100 inclusive.
+ * Returns a new array consisting of the first 'count' numbers that are between 
+ * the range 0-10 inclusive or 90-100 inclusive.
  * 
- * @param {Array} arr 
- * @param {Number} count 
- * @returns {Array}
+ * @param {Array} arr         An array of numbers
+ * @param {Number} count      The count of numbers to add to new array
+ * @returns {Array}           Returns a new array
  */
 function copyEndy (arr, count) {
   let endyNums = [];
