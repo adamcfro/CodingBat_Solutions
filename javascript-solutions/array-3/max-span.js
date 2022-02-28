@@ -3,8 +3,8 @@
  * between the first and last appearance of an element, inclusive. A single
  * value has a span of 1.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns a length (span) number
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns a length (span) number
  */
 function maxSpan (arr) {
   let longestSpan = 0;
