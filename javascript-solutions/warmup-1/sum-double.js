@@ -1,9 +1,10 @@
 /**
- * Returns the sum of two numbers, or double the sum if the two numbers are the same.
+ * Returns the sum of two numbers, or double the sum 
+ * if the two numbers are the same.
  * 
- * @param {Number} num1   First number
- * @param {Number} num2   Second number
- * @returns {Number}      Returns the sum of num1 and num2, or double their sum if the two numbers are the same.
+ * @param {Number} num1 - First number parameter
+ * @param {Number} num2 - Second number parameter
+ * @returns {Number} - Returns a sum
  */
 function sumDouble (num1, num2) {
   if (num1 === num2) {

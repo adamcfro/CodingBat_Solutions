@@ -4,7 +4,7 @@
  * with the substring 'del' removed.
  * 
  * @param {String} str - A string parameter
- * @returns {Boolean} - Returns a Booleaj
+ * @returns {Boolean} - Returns a Boolean
  */
 function delDel (str) {
   if (str.substring(1, 4) === 'del') {

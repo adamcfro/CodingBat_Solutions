@@ -1,8 +1,9 @@
 /**
- * Returns a new string with the first 2 characters of the original string added to the front and back.
+ * Returns a new string with the first 2 characters of the original string 
+ * added to the front and back.
  * 
- * @param {String} str    A string parameter
- * @returns {String}      Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function front22 (str) {
   if (str.length < 2) {

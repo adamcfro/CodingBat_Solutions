@@ -1,8 +1,9 @@
 /**
- * Returns a new string with three copies of the first three characters of the string parameter.
+ * Returns a new string with three copies of the first three characters
+ * of the string parameter.
  * 
- * @param {String} str    A string parameter
- * @returns {String}      Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function front3 (str) {
   if (str.length < 3) {

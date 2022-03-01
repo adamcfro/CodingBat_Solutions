@@ -1,9 +1,9 @@
 /**
  * Returns a new string with every nth character removed
  * 
- * @param {String} str      A string parameter
- * @param {Number} num      The nth number in a string
- * @returns {String}        Returns a new string
+ * @param {String} str - A string parameter
+ * @param {Number} num - The nth number in a string
+ * @returns {String} - Returns a new string
  */
 function everyNth (str, num) {
   let newString = '';

@@ -1,9 +1,11 @@
 /**
- * This function returns true if one of the parameters is positive and the other negative, unless the paramter 'negative' is true, in which case both parameters must be negative.
+ * This function returns true if one of the parameters is positive and 
+ * the other negative, unless the paramter 'negative' is true, in which case 
+ * both parameters must be negative.
  * 
- * @param {Number} a          A number
- * @param {Number} b          A number
- * @param {Boolean} negative  Tells whether both other parameters should be negative
+ * @param {Number} a - First number parameter
+ * @param {Number} b - Second number parameter
+ * @param {Boolean} negative - Whether both number parameters should be negative
  * @returns {Boolean}
  */
 function posNeg (a, b, negative) {

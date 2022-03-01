@@ -1,8 +1,8 @@
 /**
  * Returns the number of times 'e' appears in a string.
  * 
- * @param {String} str        A string parameter
- * @returns {Number}          Returns the number of times 'e' appears in a string
+ * @param {String} str - A string parameter
+ * @returns {Number} - Returns the number of times 'e' appears in a string
  */
 function stringE (str) {
   let numberOfE = 0;

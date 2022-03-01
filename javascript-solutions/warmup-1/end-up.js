@@ -1,8 +1,8 @@
 /**
  * Returns a string with the last 3 characters capitalized.
  * 
- * @param {String} str      A string parameter
- * @returns {String}        Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function endUp (str) {
   if (str.length < 3) {

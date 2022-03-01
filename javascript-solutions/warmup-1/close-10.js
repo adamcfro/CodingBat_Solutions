@@ -1,5 +1,6 @@
 /**
- * Checks which value is nearest to 10 and returns that number, or returns 0 in the event of a tie.
+ * Checks which value is nearest to 10 and returns that number, 
+ * or returns 0 in the event of a tie.
  * 
  * @param {Number} num1 - First number parameter
  * @param {Number} num2 - Second number parameter
