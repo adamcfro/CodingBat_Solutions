@@ -1,8 +1,9 @@
 /**
- * Returns a string with all 'x' removed, but keeps any 'x' that is the first or last character in the string, 
+ * Returns a string with all 'x' removed, but keeps any 'x' 
+ * that is the first or last character in the string, 
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function stringX (str) {
   let newString = '';

@@ -1,8 +1,9 @@
 /**
- * Returns a new string with any instance of 'yak' removed, where the middle character can be anything.
+ * Returns a new string with any instance of 'yak' removed, where the middle 
+ * character can be anything.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function stringYak (str) {
   let newString = '';

@@ -1,8 +1,9 @@
 /**
- * Returns a string by switching between adding two characters from the string, then skipping the next two characters of the string, and repeating.
+ * Returns a string by switching between adding two characters from the string, 
+ * then skipping the next two characters of the string, and repeating.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function altPairs (str) {
   let newString = '';

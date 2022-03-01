@@ -1,8 +1,8 @@
 /**
  * Returns the number of times a 6 appears next to another 6 in an array.
  * 
- * @param {Array} arr       An array parameter
- * @returns {Number}        Returns a count number
+ * @param {Array} arr - An array parameter
+ * @returns {Number} - Returns a count number
  */
 function array667 (arr) {
   let count = 0;

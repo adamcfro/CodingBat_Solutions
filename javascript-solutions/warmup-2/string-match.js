@@ -1,9 +1,10 @@
 /**
- * Returns a count of the number of times a substring of two appears in the same positions of two string parameters.
+ * Returns a count of the number of times a substring of two appears 
+ * in the same positions of two string parameters.
  * 
- * @param {String} str1       First string parameter
- * @param {String} str2       Second string parameter
- * @returns {Number}          A count number
+ * @param {String} str1 - First string parameter
+ * @param {String} str2 - Second string parameter
+ * @returns {Number} - Returns a count number
  */
 function stringMatch (str1, str2) {
   let count = 0;

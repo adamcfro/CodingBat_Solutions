@@ -1,8 +1,8 @@
 /**
  * Checks if a number appears three times in a row in an array.
  * 
- * @param {Array} arr       An array parameter
- * @returns {Boolean}       Returns a Boolean
+ * @param {Array} arr - An array parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function noTriples (arr) {
   for (let i = 0; i < arr.length; i++) {

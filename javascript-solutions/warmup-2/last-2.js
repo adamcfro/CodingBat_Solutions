@@ -1,8 +1,9 @@
 /**
- * Returns the number of times the last two characters in the string appears elsewhere in the string.
+ * Returns the number of times the last two characters in the string appears 
+ * elsewhere in the string.
  * 
- * @param {String} str      A string parameter
- * @returns {Number}        Returns a count
+ * @param {String} str - A string parameter
+ * @returns {Number} - Returns a count
  */
 function last2 (str) {
   let count = 0;

@@ -1,8 +1,9 @@
 /**
- * Checks if the first instance of 'x' in a string is followed by another 'x' and returns true if so, false otherwise.
+ * Checks if the first instance of 'x' in a string is followed by another 'x' 
+ * and returns true if so, false otherwise.
  * 
- * @param {String} str      A string parameter
- * @returns {Boolean}       Returns a Boolean
+ * @param {String} str - A string parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function doubleX (str) {
   for (let i = 0; i < str.length - 1; i++) {
