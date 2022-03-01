@@ -1,9 +1,9 @@
 /**
  * Returns a new array containing the first n strings.
  * 
- * @param {Array} arr         An array of strings
- * @param {Number} n          Number of elements to add
- * @returns {Array}           A new array of strings
+ * @param {Array} arr - An array of strings
+ * @param {Number} n - Number of elements to add
+ * @returns {Array} - A new array of strings
  */
 function wordsFront (arr, n) {
   let newArr = [];

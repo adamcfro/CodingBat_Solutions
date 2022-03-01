@@ -1,8 +1,8 @@
 /**
  * Returns true if the number parameter has a 1 in it.
  * 
- * @param {Number} num        A number parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {Number} num - A number parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function hasOne (num) {
   while (num != 0) {

@@ -4,9 +4,9 @@
  * answersArr that line up with elements in the keyArray count +4, wrong answers
  * count -1, and answers with a '?' receive 0. 
  * 
- * @param {Array} keyArr      A string array of correct answers to a test
- * @param {Array} answersArr  A string array of a student's answers
- * @returns {Number}          Returns a count number
+ * @param {Array} keyArr - A string array of correct answers to a test
+ * @param {Array} answersArr - A string array of a student's answers
+ * @returns {Number} - Returns a count number
  */
 function scoreUp (keyArr, answersArr) {
   let score = 0;

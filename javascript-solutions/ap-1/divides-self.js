@@ -1,8 +1,10 @@
 /**
- * Returns true if the number parameter divides evenly by each digit in the parameter, except that we'll say 0 does not divide into anything evenly, so no number with a 0 digit divides itself.
+ * Returns true if the number parameter divides evenly by each digit in the 
+ * parameter, except that we'll say 0 does not divide into anything evenly, 
+ * so no number with a 0 digit divides itself.
  * 
- * @param {Number} num        A number parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {Number} num - A number parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function dividesSelf (num) {
   let splitNums = [];

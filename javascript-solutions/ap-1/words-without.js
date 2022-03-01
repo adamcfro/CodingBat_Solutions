@@ -1,9 +1,9 @@
 /**
  * Returns a new array with all the instances of target left off.
  * 
- * @param {Array} arr         An array of strings
- * @param {Number} target     A target string
- * @returns {Array}           Returns a new array
+ * @param {Array} arr - An array of strings
+ * @param {Number} target - A target string
+ * @returns {Array} - Returns a new array
  */
 function wordsWithout (arr, target) {
   let newArr = [];

@@ -1,9 +1,9 @@
 /**
  * Returns a new array where all strings of length n are omitted.
  * 
- * @param {Array} arr         An array of strings
- * @param {Number} n          Target string length
- * @returns {Array}           Returns a new array of strings
+ * @param {Array} arr - An array of strings
+ * @param {Number} n - Target string length
+ * @returns {Array} - Returns a new array of strings
  */
 function wordsWithoutList (arr, n) {
   let newArr = [];

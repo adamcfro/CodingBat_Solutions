@@ -1,9 +1,9 @@
 /**
  * Returns a count of the number of strings with the given length n.
  * 
- * @param {Array} arr         An array of strings
- * @param {Number} n          A target string length
- * @returns {Number}          Returns a count
+ * @param {Array} arr - An array of strings
+ * @param {Number} n - A target string length
+ * @returns {Number} - Returns a count
  */
 function wordsCount (arr, n) {
   let count = 0;

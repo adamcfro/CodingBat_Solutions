@@ -5,10 +5,10 @@
  * alphabetical order and without duplicates. A and B will both have a length 
  * which is N or more.
  * 
- * @param {Array} arr1        First array of strings
- * @param {Array} arr2        Second array of strings
- * @param {Number} n          Length of array
- * @returns {Array}           Returns a new array
+ * @param {Array} arr1 - First array of strings
+ * @param {Array} arr2 - Second array of strings
+ * @param {Number} n - Length of array
+ * @returns {Array} - Returns a new array
  */
 function mergeTwo (arr1, arr2, n) {
   let newArr = [];
