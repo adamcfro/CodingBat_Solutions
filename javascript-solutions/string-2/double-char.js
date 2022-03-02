@@ -1,8 +1,8 @@
 /**
  * Returns a string with each original character doubled in position.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a modified string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a modified string
  */
 function doubleChar (str) {
   let doubleStr = '';

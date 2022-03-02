@@ -1,8 +1,9 @@
 /**
- * Returns true if the substring 'xyz' appears in the middle of the string parameter. Can be off by 1 index.
+ * Returns true if the substring 'xyz' appears in the middle of the string 
+ * parameter. Can be off by 1 index.
  * 
- * @param {String} str        A string parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {String} str - A string parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function xyzMiddle (str) {
   let middle = Math.round(str.length / 2);

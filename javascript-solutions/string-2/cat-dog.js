@@ -1,8 +1,9 @@
 /**
- * Returns true if the substrings 'cat' and 'dog' appear the same number of times in a string.
+ * Returns true if the substrings 'cat' and 'dog' appear the same number of 
+ * times in a string.
  * 
- * @param {String} str        A string parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {String} str - A string parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function catDog (str) {
   let catCount = 0;

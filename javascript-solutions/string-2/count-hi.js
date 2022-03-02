@@ -1,8 +1,9 @@
 /**
- * Returns the total number of times the substring 'hi' appears in the parameter string.
+ * Returns the total number of times the substring 'hi' appears in the 
+ * parameter string.
  * 
- * @param {String} str        A string parameter 
- * @returns {Number}          A count number
+ * @param {String} str - A string parameter 
+ * @returns {Number} - A count number
  */
 function countHi (str) {
   let total = 0;

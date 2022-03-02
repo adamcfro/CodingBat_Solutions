@@ -1,8 +1,9 @@
 /**
- * Returns the number of times the substring 'code' appears in the string parameter, except the 'd' can be any letter.
+ * Returns the number of times the substring 'code' appears in the string 
+ * parameter, except the 'd' can be any letter.
  * 
- * @param {String} str        A string parameter
- * @returns {Number}          Returns a count
+ * @param {String} str - A string parameter
+ * @returns {Number} - Returns a count
  */
 function countCode (str) {
   let total = 0;

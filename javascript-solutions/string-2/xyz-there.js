@@ -1,8 +1,9 @@
 /**
- * Returns true if the string parameter contains the substring 'xyz', and the substring is not proceded by a period '.' .
+ * Returns true if the string parameter contains the substring 'xyz', and the 
+ * substring is not proceded by a period '.' .
  * 
- * @param {String} str 
- * @returns {Boolean}
+ * @param {String} str - A string parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function xyzThere (str) {
   for (let i = 0; i < str.length; i++) {

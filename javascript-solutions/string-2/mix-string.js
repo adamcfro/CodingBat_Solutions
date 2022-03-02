@@ -1,9 +1,10 @@
 /**
- * Returns a new string made up by switching back and forth between strings and concatenating the character onto the new string.
+ * Returns a new string made up by switching back and forth between strings and 
+ * concatenating the character onto the new string.
  * 
- * @param {String} str1       First string parameter
- * @param {String} str2       Second string parameter
- * @returns {String}          Returns a new string
+ * @param {String} str1 - First string parameter
+ * @param {String} str2 - Second string parameter
+ * @returns {String} - Returns a new string
  */
 function mixString (str1, str2) {
   let alternatingStr = '';
