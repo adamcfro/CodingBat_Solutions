@@ -5,8 +5,8 @@
  * of 3's and 4's, every 3 has a number after it that is not a 3, and a 3 
  * appears in the array before any 4.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a modified array
  */
 function fix34 (arr) {
   let holdNumber = 4;
