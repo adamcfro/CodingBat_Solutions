@@ -1,8 +1,10 @@
 /**
- * Checks if either of the first two characters of a string are 'x', and returns the string without those 'x' characters. Otherwise, returns the string unchanged.
+ * Checks if either of the first two characters of a string are 'x', and 
+ * returns the string without those 'x' characters. Otherwise, 
+ * returns the string unchanged.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a modified string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a modified string
  */
 function withoutX2 (str) {
   switch (true) {

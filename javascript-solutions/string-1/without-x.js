@@ -1,8 +1,9 @@
 /**
- * Returns a string with the first or last characters removed if they are 'x', otherwise returns the string unchanged.
+ * Returns a string with the first or last characters removed if they are 'x', 
+ * otherwise returns the string unchanged.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a modified string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a modified string
  */
 function withoutX (str) {
   switch (true) {

@@ -1,8 +1,9 @@
 /**
- * Checks which parameter is longer, then returns a concatenated string in the form shortStr longStr longStr shortStr.
+ * Checks which parameter is longer, then returns a concatenated string in the 
+ * form shortStr longStr longStr shortStr.
  * 
- * @param {String} str1       First string parameter
- * @param {String} str2       Second string parameter
+ * @param {String} str1 - First string parameter
+ * @param {String} str2 - Second string parameter
  * @returns 
  */
 function comboString (str1, str2) {
