@@ -1,6 +1,6 @@
 /**
- * Returns a count of the number of adjacent elements that differ by 5 or more, 
- * starting at the start index and ending at the end index.
+ * Returns a count of the number of adjacent elements that differ 
+ * by 5 or more, starting at the start index and ending at the end index.
  * 
  * @param {Array} arr - An array of numbers
  * @param {Number} start - A starting index

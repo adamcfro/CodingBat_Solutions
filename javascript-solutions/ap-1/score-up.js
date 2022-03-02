@@ -1,8 +1,8 @@
 /**
- * Given a key array (correct answers) and an answers array (student's answers),
- * return the score of the student's answers to an exam. Elements in the 
- * answersArr that line up with elements in the keyArray count +4, wrong answers
- * count -1, and answers with a '?' receive 0. 
+ * Given a key array (correct answers) and an answers array (student's 
+ * answers),  return the score of the student's answers to an exam. 
+ * Elements in the answersArr that line up with elements in the keyArray 
+ * count +4, wrong answers count -1, and answers with a '?' receive 0. 
  * 
  * @param {Array} keyArr - A string array of correct answers to a test
  * @param {Array} answersArr - A string array of a student's answers

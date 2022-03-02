@@ -1,6 +1,7 @@
 /**
- * Given start and end indexes of an array, returns the sum of the differences 
- * between adjacent numbers. However, increases in height count for double.
+ * Given start and end indexes of an array, returns the sum of the 
+ * differences between adjacent numbers. However, increases in 
+ * height count for double.
  * 
  * @param {Array} arr - An array of numbers
  * @param {Number} start - A starting index

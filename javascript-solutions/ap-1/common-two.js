@@ -1,7 +1,7 @@
 /**
- * Start with two arrays of strings, arr1 and arr2, each in alphabetical order, 
- * possibly with duplicates. Returns the count of the number of strings which 
- * appear in both arrays.
+ * Start with two arrays of strings, arr1 and arr2, each in alphabetical 
+ * order, possibly with duplicates. Returns the count of the number of 
+ * strings which appear in both arrays.
  * 
  * @param {Array} arr1 - First array of strings
  * @param {Array} arr2 - Second array of strings

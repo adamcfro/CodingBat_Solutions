@@ -1,6 +1,6 @@
 /**
- * Returns the sum of the difference between adjacent numbers, starting at the 
- * start index and ending at the end index.
+ * Returns the sum of the difference between adjacent numbers, 
+ * starting at the 'start' index and ending at the 'end' index.
  * 
  * @param {Array} arr - An array of numbers
  * @param {Number} start - A starting index
