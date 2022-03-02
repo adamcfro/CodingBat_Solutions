@@ -1,8 +1,9 @@
 /**
- * Returns an array where the leftmost element has been shifted and pushed to the back of the array.
+ * Returns an array where the leftmost element has been shifted and pushed 
+ * to the back of the array.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a modified array
  */
 function shiftLeft (arr) {
   if (arr.length > 0) {

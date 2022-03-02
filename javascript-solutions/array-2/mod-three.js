@@ -1,8 +1,9 @@
 /**
- * Returns true if an array contains either 3 even or 3 odd values all next to each other.
+ * Returns true if an array contains either 3 even or 3 odd values 
+ * all next to each other.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Boolean}         Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function modThree (arr) {
   for (let i = 0; i < arr.length; i++) {

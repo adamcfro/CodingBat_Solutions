@@ -1,8 +1,9 @@
 /**
- * Returns true if the array contains three adjacent numbers whose values increment by 1.
+ * Returns true if the array contains three adjacent numbers 
+ * whose values increment by 1.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Boolean}         Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function tripleUp (arr) {
   for (let i = 0; i < arr.length; i++) {

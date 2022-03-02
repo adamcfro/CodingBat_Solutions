@@ -1,8 +1,9 @@
 /**
- * Returns true if the sum of 1's in an array is greater than the number of 4's.
+ * Returns true if the sum of 1's in an array is greater than 
+ * the number of 4's.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Boolean}         Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function more14 (arr) {
   let sumOnes = 0;

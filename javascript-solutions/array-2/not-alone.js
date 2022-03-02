@@ -1,9 +1,11 @@
 /**
- * Returns a new array where every instance of the target parameter which is alone (no equal values to its right AND left) is replaced by whichever value to its right or left is higher.
+ * Returns a new array where every instance of the target parameter which is 
+ * alone (no equal values to its right AND left) is replaced by whichever 
+ * value to its right or left is higher.
  * 
- * @param {Array} arr         An array of numbers
- * @param {Number} target     A target number
- * @returns {Array}           Returns a new array
+ * @param {Array} arr - An array of numbers
+ * @param {Number} target - A target number
+ * @returns {Array} - Returns a new array
  */
 function notAlone (arr, target) {
   let newArr = [];

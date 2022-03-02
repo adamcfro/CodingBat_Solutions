@@ -1,9 +1,11 @@
 /**
- * Given two arrays of same length, returns a count of the number of times the elements at index[i] in both parameters differ by less than 2, but are not equal.
+ * Given two arrays of same length, returns a count of the number of times 
+ * the elements at index[i] in both parameters differ by less than 2, 
+ * but are not equal.
  * 
- * @param {Array} arr1        First array of numbers
- * @param {Array} arr2        Second array of numbers
- * @returns {Number}          Returns a count
+ * @param {Array} arr1 - First array of numbers
+ * @param {Array} arr2 - Second array of numbers
+ * @returns {Number} - Returns a count
  */
 function matchUp (arr1, arr2) {
   let total = 0;

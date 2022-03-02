@@ -1,8 +1,8 @@
 /**
  * Returns true if the array contains no 1's or it contains no 4's.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Boolean}         Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function no14 (arr) {
   let noOnes = true;

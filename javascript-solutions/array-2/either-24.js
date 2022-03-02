@@ -1,8 +1,9 @@
 /**
- * Returns true if the array contains a 2 next to another 2 or a 4 next to a 4, but not both.
+ * Returns true if the array contains a 2 next to another 2 or a 4 
+ * next to a 4, but not both.
  * 
- * @param {Array} arr           An array of numbers
- * @returns {Boolean}           Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function either24 (arr) {
   let twoTogether = false;

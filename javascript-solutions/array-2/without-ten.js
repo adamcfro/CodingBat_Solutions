@@ -1,8 +1,10 @@
 /**
- * Returns a modified array where all elements that are not 10's  are shifted to the front of the array, and all 10's have been replaced by 0's at the end of the array.
+ * Returns a modified array where all elements that are not 10's  are shifted 
+ * to the front of the array, and all 10's have been replaced by 0's 
+ * at the end of the array.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a modified array
  */
 function withoutTen (arr) {
   let index = 0;

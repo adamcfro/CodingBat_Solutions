@@ -1,8 +1,9 @@
 /**
- * Returns the mean average of the values in the array, while ignoring the one largest number and the one smallest number.
+ * Returns the mean average of the values in the array, while ignoring 
+ * the one largest number and the one smallest number.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns a median number
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns a median number
  */
 function centeredAverage (arr) {
   let smallNum = arr[0];

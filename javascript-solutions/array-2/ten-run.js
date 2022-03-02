@@ -1,8 +1,11 @@
 /**
- * Returns a new array, where for each element that is a multiple of 10, all following elements are changed to that number. This repeats until encountering another multiple of 10, where all values after are correspondingly changed to that number.
+ * Returns a new array, where for each element that is a multiple of 10, 
+ * all following elements are changed to that number. This repeats until 
+ * encountering another multiple of 10, where all values after are 
+ * correspondingly changed to that number.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a new array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a new array
  */
 function tenRun (arr) {
   let newArr = [];

@@ -1,8 +1,9 @@
 /**
- * Returns a modified array where each 0 value in the array is replaced by the largest odd value to the right of the zero in the array.
+ * Returns a modified array where each 0 value in the array is replaced by 
+ * the largest odd value to the right of the zero in the array.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a modified array
  */
 function zeroMax (arr) {
   let largestOdd = 0;

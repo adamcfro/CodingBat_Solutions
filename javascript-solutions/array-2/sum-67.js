@@ -1,8 +1,9 @@
 /**
- * Returns the sum of numbers in an array, ignoring sections that start with 6 and extending to the next instance of 7.
+ * Returns the sum of numbers in an array, ignoring sections 
+ * that start with 6 and extending to the next instance of 7.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns a sum
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns a sum
  */
 function sum67 (arr) {
   let total = 0;

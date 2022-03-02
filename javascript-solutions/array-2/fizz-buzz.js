@@ -1,9 +1,12 @@
 /**
- * Returns a string array where multiples of both 3 and 5 are replaced by 'FizzBuzz', multiples of 3 are replaced by 'Fizz', multiples of 5 are replaced by 'Buzz', and all other numbers are converted to string form. Begins at index [start] up to but not including index [end].
+ * Returns a string array where multiples of both 3 and 5 are replaced by 
+ * 'FizzBuzz', multiples of 3 are replaced by 'Fizz', multiples of 5 
+ * are replaced by 'Buzz', and all other numbers are converted to 
+ * string form. Begins at index [start] up to but not including index [end].
  * 
- * @param {Number} start      A starting index
- * @param {Number} end        An ending index
- * @returns {Array}           Returns an array of strings
+ * @param {Number} start - A starting index
+ * @param {Number} end - An ending index
+ * @returns {Array} - Returns an array of strings
  */
 function fizzBuzz (start, end) {
   let arr = [];

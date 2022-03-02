@@ -1,8 +1,9 @@
 /**
- * Returns an array where all even numbers are moved to the front of the array, and all odd numbers are moved to the back.
+ * Returns an array where all even numbers are moved to the front of the 
+ * array, and all odd numbers are moved to the back.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a new array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a new array
  */
 function evenOdd (arr) {
   let oddArr = [];

@@ -1,8 +1,8 @@
 /**
  * Returns the amount of times an even number appears in an array.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns a count
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns a count
  */
 function countEvens (arr) {
   let total = 0;

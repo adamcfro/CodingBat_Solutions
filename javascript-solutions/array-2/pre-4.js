@@ -1,8 +1,9 @@
 /**
- * Returns a modified array containing all elements that come before the first 4.
+ * Returns a modified array containing all elements that come 
+ * before the first 4.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a modified array
  */
 function pre4 (arr) {
   let endSlice = 0;

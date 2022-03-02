@@ -1,8 +1,9 @@
 /**
- * Returns a sum of numbers in an array, skipping any number that is 13 and all numbers that come after.
+ * Returns a sum of numbers in an array, skipping any number that is 13 
+ * and all numbers that come after.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns a sum
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns a sum
  */
 function sum13 (arr) {
   let total = 0;

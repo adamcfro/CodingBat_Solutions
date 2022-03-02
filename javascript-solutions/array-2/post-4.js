@@ -1,8 +1,9 @@
 /**
- * Returns an array containing all elements that occur after the last 4 that appears in the parameter array.
+ * Returns an array containing all elements that occur after the last 4 
+ * that appears in the parameter array.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a slice of array
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a slice of array
  */
 function post4 (arr) {
   let startSlice = 0;

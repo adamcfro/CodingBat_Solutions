@@ -1,8 +1,9 @@
 /**
- * Returns true if the value 3 appears in an array exactly three times, and there are no 3's next to each other.
+ * Returns true if the value 3 appears in an array exactly three times, 
+ * and there are no 3's next to each other.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Boolean}         Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function haveThree (arr) {
   let total = 0;

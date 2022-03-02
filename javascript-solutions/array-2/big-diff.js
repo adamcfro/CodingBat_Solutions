@@ -1,8 +1,9 @@
  /**
-  * Returns the difference between the largest and smallest values in an array.
+  * Returns the difference between the largest and smallest values 
+  * in an array.
   * 
-  * @param {Array} arr        An array of numbers
-  * @returns {Number}         Returns a number
+  * @param {Array} arr - An array of numbers
+  * @returns {Number} - Returns a number
   */
  function bigDiff (arr) {
    let small = arr[0];

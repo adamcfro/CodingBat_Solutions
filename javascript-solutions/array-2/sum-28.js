@@ -1,8 +1,8 @@
 /**
  * Returns true if the sum of 2's that appear in an array is exactly 8.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Boolean}         Returns a Boolean
+ * @param {Array} arr - An array of numbers
+ * @returns {Boolean} - Returns a Boolean
  */
 function sum28 (arr) {
   let total = 0;
