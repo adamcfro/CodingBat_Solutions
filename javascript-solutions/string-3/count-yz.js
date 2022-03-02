@@ -1,8 +1,8 @@
 /**
  * Returns a count of words in a string that end with a 'y' or a 'z'.
  * 
- * @param {String} str        A string parameter
- * @returns {Number}          Returns a count
+ * @param {String} str - A string parameter
+ * @returns {Number} - Returns a count
  */
 function countYZ (str) {
   let total = 0;

@@ -1,8 +1,8 @@
 /**
  * Returns a sum of the number digits that appear in a string.
  * 
- * @param {String} str        A string parameter
- * @returns {Number}          A sum number
+ * @param {String} str - A string parameter
+ * @returns {Number} - A sum number
  */
 function sumDigits (str) {
   let total = 0;

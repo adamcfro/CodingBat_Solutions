@@ -1,8 +1,9 @@
 /**
- * Returns the longest substring that appears at both the front and back of the string parameter.
+ * Returns the longest substring that appears at both the front and back of the 
+ * string parameter.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          A substring
+ * @param {String} str - A string parameter
+ * @returns {String} - A substring
  */
 function sameEnds (str) {
   let longestSub = '';

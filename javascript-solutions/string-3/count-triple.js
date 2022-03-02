@@ -1,8 +1,9 @@
 /**
- * Returns a count of the number of times a character appears three times in a row.
+ * Returns a count of the number of times a character appears three times 
+ * in a row.
  * 
- * @param {String} str        A string parameter 
- * @returns {Number}          A count number
+ * @param {String} str - A string parameter 
+ * @returns {Number} - A count number
  */
 function countTriple (str) {
   let count = 0;

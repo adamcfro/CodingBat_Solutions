@@ -1,8 +1,9 @@
 /**
- * Returns the sum of the numbers appearing in a string. A number consists of 1 or more digit characters in a row.
+ * Returns the sum of the numbers appearing in a string. A number consists of 1 
+ * or more digit characters in a row.
  * 
- * @param {String} str        A string parameter
- * @returns {Number}          Returns a sum
+ * @param {String} str - A string parameter
+ * @returns {Number} - Returns a sum
  */
 function sumNumbers (str) {
   let total = 0;

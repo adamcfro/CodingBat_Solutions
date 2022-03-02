@@ -1,8 +1,9 @@
 /**
- * Returns true if the substring 'is' appears the same number of times the substring 'not' appears in the parameter string.
+ * Returns true if the substring 'is' appears the same number of times the \
+ * substring 'not' appears in the parameter string.
  * 
- * @param {String} str        A string parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {String} str - A string parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function equalIsNot (str) {
   let isCount = 0;

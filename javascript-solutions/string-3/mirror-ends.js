@@ -1,8 +1,9 @@
 /**
- * Returns a substring of the characters at the front of the string that match the characters at the back of the string when reversed.
+ * Returns a substring of the characters at the front of the string that match 
+ * the characters at the back of the string when reversed.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a substring
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a substring
  */
 function mirrorEnds (str) {
   let substr = '';

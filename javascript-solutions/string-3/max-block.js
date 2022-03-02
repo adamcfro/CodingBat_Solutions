@@ -1,8 +1,9 @@
 /**
- * Returns the length of the largest block of string that consists of the same character.
+ * Returns the length of the largest block of string that consists of the same 
+ * character.
  * 
- * @param {String} str        A string parameter
- * @returns {Number}          A count number
+ * @param {String} str - A string parameter
+ * @returns {Number} - A count number
  */
 function maxBlock (str) {
   let total = str.length > 0 ? 1: 0;

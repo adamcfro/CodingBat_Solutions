@@ -3,8 +3,8 @@
  * replaced with 'is not'. The word 'is' should not be immediately preceded or 
  * followed by a letter.
  * 
- * @param {String} str        A string parameter
- * @returns {String}          Returns a new string
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function notReplace (str) {
   let newStr = '';
@@ -25,8 +25,8 @@ function notReplace (str) {
 /**
  * Returns true if a character is a letter a-z, uppercase or lowercase.
  * 
- * @param {String} char       A string character
- * @returns {Boolean}         Returns a Boolean
+ * @param {String} char - A string character
+ * @returns {Boolean} - Returns a Boolean
  */
 function isLetter(char) {
   return (/[a-zA-Z]/).test(char);
