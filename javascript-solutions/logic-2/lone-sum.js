@@ -1,10 +1,11 @@
 /**
- * Returns the sum of three numbers, unless any values are equal to each other, in which case they do not count towards the sum.
+ * Returns the sum of three numbers, unless any values are equal to each other, 
+ * in which case they do not count towards the sum.
  * 
- * @param {Number} num1       First number parameter
- * @param {Number} num2       Second number parameter
- * @param {Number} num3       Third number parameter
- * @returns {Number}          Returns a sum
+ * @param {Number} num1 - First number parameter
+ * @param {Number} num2 - Second number parameter
+ * @param {Number} num3 - Third number parameter
+ * @returns {Number} - Returns a sum
  */
 function loneSum (num1, num2, num3) {
   let total = 0;

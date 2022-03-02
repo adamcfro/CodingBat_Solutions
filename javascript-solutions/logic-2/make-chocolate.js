@@ -1,10 +1,11 @@
 /**
- * Returns the amount of small bricks used to reach goal, or returns -1 if it can't be done.
+ * Returns the amount of small bricks used to reach goal, or returns -1 if it 
+ * can't be done.
  * 
- * @param {Number} small      Small bricks number
- * @param {Number} big        Large bricks number
- * @param {Number} goal       Goal number
- * @returns {Number}          Returns the amount of small bricks necessary
+ * @param {Number} small - Small bricks number
+ * @param {Number} big - Large bricks number
+ * @param {Number} goal - Goal number
+ * @returns {Number} - Returns the amount of small bricks necessary
  */
 function makeChocolate (small, big, goal) {
   if ((goal > small + (big * 5)) || (small < (goal % 5))) {
