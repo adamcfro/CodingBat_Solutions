@@ -1,8 +1,9 @@
 /**
- * Given an array, if there is a 2 followed immediately by a 3, sets the element to 0. Returns the changed array.
+ * Given an array, if there is a 2 followed immediately by a 3, 
+ * sets the element to 0. Returns the changed array.
  * 
- * @param {Array} arr         An array parameter
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr -An array parameter
+ * @returns {Array} - Returns a modified array
  */
 function fix23 (arr) {
   let newArr = [];

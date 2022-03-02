@@ -1,9 +1,9 @@
 /**
  * Returns the array featuring a greater sum.
  * 
- * @param {Array} arr1        First array parameter
- * @param {Array} arr2        Second array parameter
- * @returns {Array}           Returns an array
+ * @param {Array} arr1 - First array parameter
+ * @param {Array} arr2 - Second array parameter
+ * @returns {Array} - Returns an array
  */
 function biggerTwo (arr1, arr2) {
   let sumArr1 = 0;

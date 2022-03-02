@@ -1,8 +1,9 @@
 /**
- * Returns the sum of the first 2 elements in an array, or the sum of whatever elements are there.
+ * Returns the sum of the first 2 elements in an array, or the sum of 
+ * whatever elements are there.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns a sum
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns a sum
  */
 function sum2 (arr) {
   let total = 0;

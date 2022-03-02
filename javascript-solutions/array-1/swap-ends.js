@@ -1,8 +1,8 @@
 /**
  * Returns a new array with the first and last elements swapped.
  * 
- * @param {Array} arr         An array parameter
- * @returns {Array}           Returns a modified array
+ * @param {Array} arr - An array parameter
+ * @returns {Array} - Returns a modified array
  */
 function swapEnds (arr) {
   let newArr = [];

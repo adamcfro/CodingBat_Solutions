@@ -1,8 +1,8 @@
 /**
  * Returns an array made up of the two middle elements.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Array}           Returns a modified array of numbers
+ * @param {Array} arr - An array of numbers
+ * @returns {Array} - Returns a modified array of numbers
  */
 function makeMiddle (arr) {
   let middleIndex = Math.floor(arr.length / 2) - 1;

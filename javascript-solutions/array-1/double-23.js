@@ -1,8 +1,8 @@
 /**
  * Returns true if an array contains 2 twice or 3 twice.
  * 
- * @param {Arr} arr           An array parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {Arr} arr - An array parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function double23 (arr) {
   let twoCount = 0;

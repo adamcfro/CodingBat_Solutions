@@ -1,8 +1,8 @@
 /**
  * Returns the sum of elements in array of length 3.
  * 
- * @param {Array} arr          An array of numbers
- * @returns {Number}           Returns the sum of elements
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns the sum of elements
  */
 function sum3 (arr) {
   if (arr.length != 3) {

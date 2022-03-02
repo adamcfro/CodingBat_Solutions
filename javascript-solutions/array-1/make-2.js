@@ -1,9 +1,10 @@
 /**
- * Returns an array length 2 containing the first two elements from the array parameters, starting with arr1.
+ * Returns an array length 2 containing the first two elements 
+ * from the array parameters, starting with arr1.
  * 
- * @param {Array} arr1        First array parameter
- * @param {Array} arr2        Second array parameter
- * @returns {Array}           Returns a new array
+ * @param {Array} arr1 - First array parameter
+ * @param {Array} arr2 - Second array parameter
+ * @returns {Array} - Returns a new array
  */
 function make2 (arr1, arr2) {
   let newArr = [];

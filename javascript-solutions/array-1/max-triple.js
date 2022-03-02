@@ -1,8 +1,9 @@
 /**
- * Returns the highest value in an array when looking at the first, middle, and last elements.
+ * Returns the highest value in an array when looking at the first, middle, 
+ * and last elements.
  * 
- * @param {Array} arr         An array of numbers
- * @returns {Number}          Returns the highest value
+ * @param {Array} arr - An array of numbers
+ * @returns {Number} - Returns the highest value
  */
 function maxTriple (arr) {
   let middleIndex = Math.floor(arr.length / 2);
