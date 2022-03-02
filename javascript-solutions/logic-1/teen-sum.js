@@ -1,8 +1,10 @@
-/** Returns the sum of two numbers, unless either paramter is in the range 13-19, in which case returns 19.
+/** 
+ * Returns the sum of two numbers, unless either paramter is in the range
+ * 13-19, in which case returns 19.
  * 
- * @param {Number} num1       First number parameter
- * @param {Number} num2       Second number parameter
- * @returns {Number}          Returns a sum
+ * @param {Number} num1 - First number parameter
+ * @param {Number} num2 - Second number parameter
+ * @returns {Number} - Returns a sum
  */
 function teenSum (num1, num2) {
   let teenNums = [];

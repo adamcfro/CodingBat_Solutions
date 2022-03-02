@@ -1,9 +1,10 @@
 /**
- * Returns true if either digit from the first paramter appears in the second parameter.
+ * Returns true if either digit from the first paramter appears 
+ * in the second parameter.
  * 
- * @param {Number} num1       First number parameter 
- * @param {Number} num2       Second number parameter
- * @returns {Boolean}         Returns a Boolean
+ * @param {Number} num1 - First number parameter 
+ * @param {Number} num2 - Second number parameter
+ * @returns {Boolean} - Returns a Boolean
  */
 function shareDigit (num1, num2) {
   let num1Left = Math.floor(num1 / 10);

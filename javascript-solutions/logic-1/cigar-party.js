@@ -1,8 +1,10 @@
 /**
- * Returns true if the number parameter is greater than forty and less than 60, unless the Boolean paramter is true, in which case there is no upper bound on the number parameter.
+ * Returns true if the number parameter is greater than forty and less than 60, 
+ * unless the Boolean paramter is true, in which case there is no upper bound 
+ * on the number parameter.
  * 
- * @param {Number} numCigars    Number of cigars
- * @param {Boolean} isWeekend   If it is the weekend
+ * @param {Number} numCigars - Number of cigars
+ * @param {Boolean} isWeekend - If it is the weekend
  * @returns 
  */
 function cigarParty (numCigars, isWeekend) {

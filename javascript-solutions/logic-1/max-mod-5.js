@@ -1,9 +1,11 @@
 /**
- * Returns the larger of two parameters, unless they are equal then returns 0, or returns the smaller value if the two parameters have the same remainder when divided by 5.
+ * Returns the larger of two parameters, unless they are equal then returns 0, 
+ * or returns the smaller value if the two parameters have the same remainder 
+ * when divided by 5.
  * 
- * @param {Number} num1       First number parameter
- * @param {Number} num2       Second number parameter
- * @returns {Number}          Returns a number
+ * @param {Number} num1 - First number parameter
+ * @param {Number} num2 - Second number parameter
+ * @returns {Number} - Returns a number
  */
 function maxMod5 (num1, num2) {
   let returnValue;

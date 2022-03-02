@@ -1,8 +1,10 @@
 /**
- * Returns the string 'FizzBuzz' if the parameter starts with 'f' and ends with 'b'. Returns 'Fizz' if parameter starts with 'f', 'Buzz' if parameter ends with 'b', otherwise returns the original parameter.
+ * Returns the string 'FizzBuzz' if the parameter starts with 'f' 
+ * and ends with 'b'. Returns 'Fizz' if parameter starts with 'f', 
+ * 'Buzz' if parameter ends with 'b', otherwise returns the original parameter.
  * 
- * @param {String} str 
- * @returns {String}
+ * @param {String} str - A string parameter
+ * @returns {String} - Returns a new string
  */
 function fizzString (str) {
   let returnString;

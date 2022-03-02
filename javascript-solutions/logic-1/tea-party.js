@@ -1,9 +1,10 @@
 /**
- * Returns 0 if either parameter is less than 5, returns 2 if either parameter is double the other parameter, and returns 1 otherwise.
+ * Returns 0 if either parameter is less than 5, returns 2 if either parameter 
+ * is double the other parameter, and returns 1 otherwise.
  * 
- * @param {Number} tea        The number of tea
- * @param {Number} candy      The number of candy
- * @returns {Number}          The party rating
+ * @param {Number} tea - The number of tea
+ * @param {Number} candy - The number of candy
+ * @returns {Number} - The party rating
  */
 function teaParty (tea, candy) {
   let partyRating;
