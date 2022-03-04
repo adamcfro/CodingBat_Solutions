@@ -3,7 +3,7 @@
  * elsewhere in the string.
  * 
  * @param {String} str - A string parameter
- * @returns {Number} - Returns a count
+ * @returns {Number} - Returns a count number
  */
 function last2 (str) {
   let count = 0;
