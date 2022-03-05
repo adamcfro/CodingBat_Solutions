@@ -3,7 +3,7 @@
  * whatever elements are there.
  * 
  * @param {Array} arr - An array of numbers
- * @returns {Number} - Returns a sum
+ * @returns {Number} - Returns a sum number
  */
 function sum2 (arr) {
   let total = 0;
