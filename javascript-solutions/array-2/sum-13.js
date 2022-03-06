@@ -3,7 +3,7 @@
  * and all numbers that come after.
  * 
  * @param {Array} arr - An array of numbers
- * @returns {Number} - Returns a sum
+ * @returns {Number} - Returns a sum of numbers
  */
 function sum13 (arr) {
   let total = 0;
