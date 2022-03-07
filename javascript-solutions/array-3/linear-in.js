@@ -7,13 +7,12 @@
  * @returns {Boolean} - Returns a Boolean
  */
 function linearIn (outer, inner) {
-  let booleanArray = [];
+  let count = 0;
   for (let i = 0, j = 0; i < outer.length; i++) {
     if (outer[i] === inner[j]) {
-      i = 0;
       j += 1;
-      booleanArray.push(0);
+      count += 1;
     }
   }
-  return booleanArray.length === inner.length;
+  return count === inner.length;
 }
