@@ -3,7 +3,7 @@
  * 
  * @param {Array} arr - An array of strings
  * @param {Number} n - A target string length
- * @returns {Number} - Returns a count
+ * @returns {Number} - Returns a count number
  */
 function wordsCount (arr, n) {
   let count = 0;
