@@ -1,5 +1,6 @@
 /**
- * Returns a new array containing the first n strings.
+ * Returns a new array containing the first n strings that appear
+ * in the original array parameter.
  * 
  * @param {Array} arr - An array of strings
  * @param {Number} n - Number of elements to add
