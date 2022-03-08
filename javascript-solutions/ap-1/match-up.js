@@ -1,7 +1,7 @@
 /**
  * Compares two arrays of strings and returns a count of the number of 
- * times the string at arr1[i] has the same first character as the string 
- * at arr2[i];
+ * times the string at arr1[i] has the same first character 
+ * as the string at arr2[i];
  * 
  * @param {Array} arr1 - First array of strings
  * @param {Array} arr2 - Second array of strings
