@@ -1,5 +1,5 @@
 /**
- * Returns true if the number parameter has a 1 in it.
+ * Returns true if the number parameter contains a 1.
  * 
  * @param {Number} num - A number parameter
  * @returns {Boolean} - Returns a Boolean
