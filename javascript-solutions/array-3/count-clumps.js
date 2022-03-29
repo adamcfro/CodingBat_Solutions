@@ -1,19 +1,23 @@
 /**
- * Say that a "clump" in an array is a series of 2 or more adjacent elements 
- * of the same value. Return the number of clumps in the given array.
+ * Returns the number of clumps in a given array. 
+ * A clump is a series of two or more adjacent elements of the same value.
  * 
  * @param {Array} arr - An array of numbers
- * @returns {Number} - Returns a count number
+ * @returns {Number} - Returns a count
  */
-function countClumps (arr) {
+ function countClumps (arr) {
   let count = 0;
-  let clumpNumber;
+  let holdValue;
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === arr[i + 1] && arr[i] !== clumpNumber) {
-      count += 1;
-      clumpNumber = arr[i];
+    if (arr[i] === arr[i + 1]) {
+      if (arr[i] !== holdValue) {
+        count += 1;
+        holdValue = arr[i];
+      } else {
+        holdValue = arr[i];
+      }
     } else {
-      clumpNumber = arr[i];
+      holdValue = arr[i];
     }
   }
   return count;
