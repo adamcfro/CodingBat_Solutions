@@ -13,8 +13,8 @@ function roundSum (num1, num2, num3) {
 
 
 /**
- * Returns a rounded number, rounds up if rightmost digit is greater than 5, 
- * rounds down otherwise.
+ * Returns a rounded number. Rounds up if rightmost digit is greater than 5. 
+ * Will round down otherwise.
  * 
  * @param {Number} num - A number parameter
  * @returns {Number} - Returns a rounded number
