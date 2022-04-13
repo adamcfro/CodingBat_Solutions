@@ -6,15 +6,12 @@
  * @returns {Number} - Returns a count number
  */
 function countX (str) {
-  let i = 0;
   if (str === '') {
     return 0;
   }
   if (str[0] === 'x') {
-    i++;
-    return 1 + countX(str.substring(i));
+    return 1 + countX(str.substring(1));
   } else {
-    i++;
-    return countX(str.substring(i));
+    return countX(str.substring(1));
   }
 }
