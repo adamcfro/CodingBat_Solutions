@@ -6,7 +6,7 @@
  * @returns {Number} - Returns a count number
  */
 function countX (str) {
-  if (str === '') {
+  if (str.length === 0) {
     return 0;
   }
   if (str[0] === 'x') {
