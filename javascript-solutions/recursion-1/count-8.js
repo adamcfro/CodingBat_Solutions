@@ -4,7 +4,7 @@
  * immediately to the left of another 8, that digit counts double.
  * 
  * 
- * @param {Number} num - A non-negative number
+ * @param {Number} num - A number parameter
  * @returns {Number} - Returns a count number
  */
 function count8 (num) {
