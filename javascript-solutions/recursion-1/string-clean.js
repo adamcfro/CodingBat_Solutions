@@ -10,10 +10,8 @@ function stringClean (str) {
     return str;
   }
   if (str[0] === str[1]) {
-    holdString = str[0];
     return stringClean(str.substring(1));
   } else {
-    holdString = '';
     return str[0] + stringClean(str.substring(1));
   }
 }
