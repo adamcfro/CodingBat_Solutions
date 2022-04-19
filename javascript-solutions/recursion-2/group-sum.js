@@ -1,6 +1,6 @@
 /**
- * Uses recursion to check if it possible for a group of numbers in an array
- * to sum to the given
+ * Uses recursion to check if it is possible for a group of numbers 
+ * in an array to sum to the given target.
  * 
  * @param {Number} start - The starting index
  * @param {Array} arr - An array of numbers
@@ -11,11 +11,6 @@ function groupSum (start, arr, target) {
   if (start >= arr.length) {
     return target === 0;
   }
-  if (groupSum(start + 1, arr, target - arr[start])) {
-    return true;
-  }
-  if (groupSum(start + 1, arr, target)) {
-    return true;
-  }
-  return false;
+  return groupSum(start + 1, arr, target - arr[start]) || 
+    groupSum(start + 1, arr, target);
 }
