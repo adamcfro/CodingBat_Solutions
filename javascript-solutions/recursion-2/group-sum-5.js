@@ -5,7 +5,7 @@
  * following a multiple of 5 is 1, it must not be chosen.
  * 
  * @param {Number} start - The starting index
- * @param {Number} arr - An array of numbers
+ * @param {Array} arr - An array of numbers
  * @param {Number} target - The target sum
  * @returns {Boolean} - Returns true if the target can be met
  */
