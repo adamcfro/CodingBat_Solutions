@@ -18,7 +18,7 @@ function splitArray (arr) {
  * @param {Array} arr - An array of numbers
  * @param {Number} sum1 - First sum of numbers
  * @param {Number} sum2 - Second sum of numbers
- * @returns 
+ * @returns {Boolean} - Returns a Boolean
  */
 function splitArrayHelper (index, arr, sum1, sum2) {
   if (index >= arr.length) {
