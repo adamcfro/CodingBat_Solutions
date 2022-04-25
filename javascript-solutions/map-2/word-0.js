@@ -3,7 +3,7 @@
  * Each key will have the value 0.
  * 
  * @param {Array} arr - An array of strings
- * @returns {Object} - Returns an object
+ * @returns {Object} - Returns an object with keys for each different string
  */
 function word0 (arr) {
   let obj = {};
