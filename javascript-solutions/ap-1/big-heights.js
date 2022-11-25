@@ -5,7 +5,8 @@
  * @param {Array} arr - An array of numbers
  * @param {Number} start - A starting index
  * @param {Number} end - An ending index
- * @returns {Number} - Returns a count number
+ * @returns {Number} - Returns a count of the number of adjacent elements that 
+ *     differ by 5 or more
  */
 function bigHeights (arr, start, end) {
   let bigSteps = 0;
